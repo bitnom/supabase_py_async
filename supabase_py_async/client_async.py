@@ -65,7 +65,7 @@ class AsyncClient:
         self._init_task = asyncio.create_task(self._initialize())
 
     async def _initialize(self):
-        await self.auth.on_auth_state_change(self._listen_to_auth_events)
+        self.auth.on_auth_state_change(self._listen_to_auth_events)
         await self._init_storage()
         await self._init_postgrest()
 
