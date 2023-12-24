@@ -159,7 +159,7 @@ class AsyncClient:
 
     async def _get_token_header(self):
         try:
-            access_token = await self.auth.get_session().access_token
+            access_token = (await self.auth.get_session()).access_token
         except:
             access_token = self.supabase_key
 
