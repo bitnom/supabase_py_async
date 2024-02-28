@@ -299,13 +299,13 @@ files = [
 
 [[package]]
 name = "gotrue"
-version = "1.3.1"
+version = "2.4.1"
 description = "Python Client Library for GoTrue"
 optional = false
 python-versions = ">=3.8,<4.0"
 files = [
-    {file = "gotrue-1.3.1-py3-none-any.whl", hash = "sha256:22a5194de560061f883e67fd51bcd7f4d1d188660d6ad81de3204d90a36714cb"},
-    {file = "gotrue-1.3.1.tar.gz", hash = "sha256:7808c210e26013b1641f91a056f8960f64c7ea9413cf3b79ad51060a42057db8"},
+    {file = "gotrue-2.4.1-py3-none-any.whl", hash = "sha256:9647bb7a585c969d26667df21168fa20b18f91c5d6afe286af08d7a0610fd2cc"},
+    {file = "gotrue-2.4.1.tar.gz", hash = "sha256:8b260ef285f45a3a2f9b5a006f12afb9fad7a36a28fa277f19e733f22eb88584"},
 ]
 
 [package.dependencies]
@@ -919,4 +919,4 @@ multidict = ">=4.0"
 [metadata]
 lock-version = "2.0"
 python-versions = ">=3.9,<3.13"
-content-hash = "842cdb1ec620dcb5a878995ef6ad75f7af2fbf8b5f7b409a1046563e91e6a7c7"
+content-hash = "32b69897e882708659a458c4c244d4a4b951ef09b3eb955123b0d8b3c88a6cf1"
