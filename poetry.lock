@@ -711,17 +711,17 @@ test = ["pylint", "pytest", "pytest-black", "pytest-cov", "pytest-pylint"]
 
 [[package]]
 name = "supafunc"
-version = "0.3.1"
+version = "0.4.0"
 description = "Library for Supabase Functions"
 optional = false
 python-versions = ">=3.8,<4.0"
 files = [
-    {file = "supafunc-0.3.1-py3-none-any.whl", hash = "sha256:8d0f3e09bd2d6bef2088cf91e4337aa920bf5e8ecadd24235e4a276c8c6b301c"},
-    {file = "supafunc-0.3.1.tar.gz", hash = "sha256:8ab338216f3845d52c45c9fdc3246a719d3f9b8d8647e8bc382fb5cdda54ddb9"},
+    {file = "supafunc-0.4.0-py3-none-any.whl", hash = "sha256:260c833523c3f5430a4f49ededd9b09a79ddcfe41279be5f987ab604731d62a3"},
+    {file = "supafunc-0.4.0.tar.gz", hash = "sha256:7fc3b1eca86f6aacf65030fd74b0c8b9e6bbf07e690319e7570a9510a917c755"},
 ]
 
 [package.dependencies]
-httpx = ">=0.24.0,<0.25.0"
+httpx = ">=0.24,<0.26"
 
 [[package]]
 name = "typing-extensions"
@@ -919,4 +919,4 @@ multidict = ">=4.0"
 [metadata]
 lock-version = "2.0"
 python-versions = ">=3.9,<3.13"
-content-hash = "842cdb1ec620dcb5a878995ef6ad75f7af2fbf8b5f7b409a1046563e91e6a7c7"
+content-hash = "3485112dbfc9f4b667bd496ee6d909eb166298746419b825567118f3f61cd3b8"
