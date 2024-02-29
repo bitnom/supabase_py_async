@@ -474,18 +474,18 @@ files = [
 
 [[package]]
 name = "postgrest"
-version = "0.13.0"
+version = "0.16.1"
 description = "PostgREST client for Python. This library provides an ORM interface to PostgREST."
 optional = false
 python-versions = ">=3.8,<4.0"
 files = [
-    {file = "postgrest-0.13.0-py3-none-any.whl", hash = "sha256:30aa8b2826db540705ba9896422fd7ad3751cebc4f884f15fffcad5032218647"},
-    {file = "postgrest-0.13.0.tar.gz", hash = "sha256:13d3c13bea10d1d47e7fbb9ca90beba19181197877dccf750f5f666fa28fe910"},
+    {file = "postgrest-0.16.1-py3-none-any.whl", hash = "sha256:412ec6bf61c58f38c92b6b61f57ab50e25c73ca9ef415a6f56ed9cf5429614cb"},
+    {file = "postgrest-0.16.1.tar.gz", hash = "sha256:d955824d37e7123a8313cbf10c8e0a8d42418fcb942cd8e1526e8509fb71574d"},
 ]
 
 [package.dependencies]
 deprecation = ">=2.1.0,<3.0.0"
-httpx = ">=0.24.0,<0.25.0"
+httpx = ">=0.24,<0.26"
 pydantic = ">=1.9,<3.0"
 strenum = ">=0.4.9,<0.5.0"
 
@@ -919,4 +919,4 @@ multidict = ">=4.0"
 [metadata]
 lock-version = "2.0"
 python-versions = ">=3.9,<3.13"
-content-hash = "842cdb1ec620dcb5a878995ef6ad75f7af2fbf8b5f7b409a1046563e91e6a7c7"
+content-hash = "6a8f1b5543022abc5471ac998c15a788d0f537e10f3954e831cb9bb0f068b68f"
