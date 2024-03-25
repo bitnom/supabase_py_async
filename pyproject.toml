@@ -14,7 +14,7 @@ gotrue = "^1.2.0"
 postgrest = "^0.13.0"
 storage3 = "^0.6.1"
 realtime = "^1.0.0"
-supafunc = "^0.3.1"
+supafunc = ">=0.3.1,<0.5.0"
 
 
 [build-system]
